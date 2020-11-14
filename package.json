@@ -1,5 +1,5 @@
 {
-  "name": "ci-comparison-blog",
+  "name": "ongea",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gili-ai/ci-comparison-blog.git"
+    "url": "git+https://github.com/Gili-ai/ongea.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Gili-ai/ci-comparison-blog/issues"
+    "url": "https://github.com/Gili-ai/ongea/issues"
   },
-  "homepage": "https://github.com/Gili-ai/ci-comparison-blog#readme",
+  "homepage": "https://github.com/Gili-ai/ongea#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mocha": "^6.2.1"
