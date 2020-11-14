@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "gili999/ci-comparison-blog",
+    "Name": "gili999/ongea",
     "Update": "true"
   },
   "Ports": [
