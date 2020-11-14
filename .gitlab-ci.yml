@@ -29,8 +29,8 @@ docker-deploy-image:
     - docker:dind
   script:
     - echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin # (5)
-    - docker build -t gili999/ongea .
-    - docker push gili999/ongea
+    - docker build -t gili999/ci-comparison-blog .
+    - docker push gili999/ci-comparison-blog
 
 aws-deploy:
   image: 'python:latest'
@@ -38,4 +38,4 @@ aws-deploy:
   before_script:
     - 'pip install awsebcli --upgrade' # (6)
   script:
-    - eb deploy ongea-env
+    - eb deploy CiComparisonBlog-env
