@@ -15,10 +15,10 @@ phases:
       - npm test
   build:
     commands:
-      - docker build -t gili999/ci-comparison-blog .
+      - docker build -t gili999/ongea .
   post_build:
     commands:
-      - docker push gili999/ci-comparison-blog
+      - docker push gili999/ongea
   artifacts:
   files:
   - '**/*'
